@@ -1,0 +1,60 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Russo+One&family=Voltaire&display=swap");
+
+/* Additional styles can be added here */
+.review-con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.review-con h1 {
+  font-size: 30px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  place-self: center;
+}
+.review-con h3 {
+  font-size: 15px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  place-self: center;
+}
+.review-con p,
+h6 {
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(78, 78, 78);
+}
+.userreview {
+  display: flex;
+  gap: 3%;
+  justify-content: space-between;
+}
+
+.user_comment2 {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+@media screen and (max-width: 502px) {
+  .userreview {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+  }
+}

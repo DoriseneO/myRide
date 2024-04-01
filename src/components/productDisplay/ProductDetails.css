@@ -1,0 +1,43 @@
+.car_info {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(246, 240, 240);
+}
+.productDetail {
+  font-family: "Antic Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.productDetail h1 {
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.productDisplay h1 {
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.car_info_2 {
+  width: 100%;
+  height: 100%;
+}
+.list-style {
+  list-style-type: disc;
+}
+.car_contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car_contact a {
+  width: 10%;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+  background-color: green;
+}

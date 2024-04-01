@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&family=Manrope:wght@200&family=Ojuju:wght@200..800&family=Russo+One&family=Voltaire&display=swap");
+.product-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.product-container p {
+  font-family: "Antic Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.product_detail {
+  width: 100%;
+  height: 100%; /* background-color: aqua; */
+}
+.car_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.car_detail {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: white; */
+  justify-content: space-between;
+}
+.view_more_btn {
+  width: 50%;
+  height: 100%;
+  color: whitesmoke;
+  background-color: rgb(78, 42, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car_detail_rating {
+  display: flex;
+  gap: 3px;
+}
+@media screen and (max-width: 992px) {
+  .car_detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+}
+@media screen and (max-width: 502px) {
+  .car_profile {
+    display: flex;
+    flex-direction: column;
+  }
+  .car_detail_rating {
+    display: flex;
+    justify-content: space-between;
+  }
+}
