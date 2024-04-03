@@ -7,15 +7,28 @@
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
+  background-color: white;
 }
 .product-container p {
-  font-family: "Antic Slab", serif;
-  font-weight: 400;
   font-style: normal;
+  font-size: 12px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(6, 2, 2);
+  width: 90%;
+}
+.product-container h1 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(6, 2, 2);
 }
 .product_detail {
   width: 100%;
-  height: 100%; /* background-color: aqua; */
+  height: 100%;
+  padding: 1em;
+  /* background-color: aqua; */
 }
 .car_profile {
   display: flex;
@@ -23,11 +36,9 @@
   align-items: center;
 }
 .car_detail {
-  /* background-color: red; */
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* background-color: white; */
   justify-content: space-between;
 }
 .view_more_btn {

@@ -23,7 +23,7 @@ export default function UserReview({ name, position, rating }) {
         </div>
         <div>{rating}</div>
       </div>
-      <div className="w-[100%]  h-[90%]  flex justify-center items-center ">
+      <div className="w-[100%]  h-[90%] text-left p-2">
         <p>
           “Wow... I am very happy to use this VPN, it turned out to be more than
           my expectations and so far there have been no problems. LaslesVPN

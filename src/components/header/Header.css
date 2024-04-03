@@ -59,17 +59,30 @@
   }
 
   .nav {
-    display: block;
+    display: flex;
     transition: 0.3s ease-in-out;
     position: absolute;
     justify-content: center;
-    gap: 10px;
     top: 100px;
     right: 0;
-    align-items: center;
+
     color: black;
     background-color: white;
-    height: 100vh;
+    height: 100%;
     width: 60%;
+  }
+  .nav ul {
+    width: 100%;
+    display: block;
+    font-family: "Russo One", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: normal;
+  }
+  .btn-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }

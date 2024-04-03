@@ -20,7 +20,9 @@ export default function Product({ prod }) {
             <Rating />
           </span>
         </div>
-        <p>{prod.info}</p>
+        <div className="text-left">
+          <p>{prod.info}</p>
+        </div>
         <div className="car_detail">
           <h1>£{prod.price}/day</h1>
           <div className="view_more_btn">

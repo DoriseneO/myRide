@@ -3,22 +3,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Russo+One&family=Voltaire&display=swap");
 
 /* Additional styles can be added here */
-.choose {
+.choose-con {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5%;
   height: 100%;
   width: 100%;
-  padding: 2em 0 4em 0;
+  padding: 2em;
+}
+.choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  padding: 2em;
 }
 .choose-box {
-  width: 80%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
 }
 .choose-box h1 {
   font-size: 30px;
@@ -27,39 +33,45 @@
   font-style: normal;
   place-self: center;
 }
-.choose-box h3 {
-  font-size: 20px;
+
+.chooseContent h3 {
   font-family: "Russo One", sans-serif;
   font-weight: 200;
   font-style: normal;
+  font-size: 20px;
+
+  color: rgb(6, 2, 2);
 }
-.choose-box p {
-  font-size: 15px;
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
+.chooseContent p {
   font-style: normal;
-  color: rgb(82, 81, 81);
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(6, 2, 2);
 }
-.choose-img {
-  width: 10%;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10%;
+
+.choose-icon {
+  width: 50px;
+  font-size: 30px;
   background-color: white;
 }
-.choose-icon {
-  width: 100%;
-  font-size: 20px;
-}
 .choose-logo {
-  width: 50%;
+  width: 40%;
   height: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
+}
+.choose-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+  padding: 2em;
 }
 @media screen and (max-width: 992px) {
   .choose {
@@ -68,10 +80,36 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  .choose-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0em;
   }
   .choose-logo {
     display: none;
+  }
+  .choose-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .chooseContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .choose-list {
+    padding: 2em;
   }
 }

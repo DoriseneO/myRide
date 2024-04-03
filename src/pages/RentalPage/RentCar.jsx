@@ -1,9 +1,9 @@
 import Category from "../../components/category/Category";
 import Search from "../../components/search/Search";
-
+import "./RentCar.css";
 const RentCar = () => {
   return (
-    <div className="flex-row justify-center align-center ">
+    <div className="rentcar-con">
       <Search />
       <Category />
     </div>

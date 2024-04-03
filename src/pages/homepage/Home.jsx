@@ -5,7 +5,7 @@ import Review from "../../components/Review/Revew";
 export default function Home() {
   return (
     <div className="w-[100%] flex justify-center items-center ">
-      <div className="w-[85%] ">
+      <div className="w-[90%] ">
         <HeroSection />
         <br />
         <HowItWorks />

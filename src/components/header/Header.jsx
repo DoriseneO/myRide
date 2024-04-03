@@ -47,17 +47,20 @@ function Header() {
                   Register
                 </Link>
               </li>
-              <li>
-                <div className="bg-white text-black border rounded-[4px] w-[70px] ">
-                  <Link to="/Login" className="link-btn">
-                    <Button
-                      content="login"
-                      color="black"
-                      backgroundColor="white"
-                      textAlign="center"
-                    />
-                  </Link>
-                </div>
+              <li className="btn-btn">
+                {/* <div className="bg-white text-black border rounded-[4px] w-[100px]"> */}
+                <Link
+                  to="/Login"
+                  className="link-btn bg-white text-black border rounded-[4px] w-[100px]"
+                >
+                  <Button
+                    content="login"
+                    color="black"
+                    backgroundColor="white"
+                    textAlign="center"
+                  />
+                </Link>
+                {/* </div> */}
               </li>
             </ul>
           </div>
