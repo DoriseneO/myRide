@@ -9,8 +9,13 @@ export default function ProductDisplay() {
   return (
     <>
       <div className="productDisplay">
-        <h1>{show.name}</h1>
-        <img src={show.img} alt="car" />
+        <div className="displayed-img">
+          <img src={show.img} width="100%" height="100%" alt="car" />
+          <div className="product-display_section">
+            <h1>{show.name}</h1>
+            <h1>£2,500,000</h1>
+          </div>
+        </div>
         <ProductDetail show={show} />
       </div>
     </>

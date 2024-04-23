@@ -1,30 +1,58 @@
 import "./ProductDetails.css";
+import Button from "../button/Button";
 export default function ProductDetail(show) {
   return (
-    <div className="gap-4 productDetail">
+    <div className="productDetail">
       <div className="car_info">
         <h1>{show.caption}</h1>
         <span className="flex justify-between">
           <p>postedDate: 10:30:2024</p>
-          <p>{show.location}</p>
+          <p>lagos,Nigeria</p>
         </span>
       </div>
       <br />
-
       <div className="car_info_2">
-        <p>model</p>
-        <p>body</p>
-        <p>engine size</p>
-        <p>color</p>
-        <p>seats</p>
+        <span>
+          <p>model</p>
+          <p>bmw</p>
+        </span>
+        <span>
+          <p>body</p>
+          <p>sedan</p>
+        </span>
+        <span>
+          <p>YOF</p>
+          <p>2013</p>
+        </span>
+        <span>
+          <p>color</p>
+          <p>black</p>
+        </span>
+        <span>
+          <p>seats</p>
+          <p>4</p>
+        </span>
       </div>
       <br />
       <div className="car_contact">
-        <a href={show.phoneNumber}>contact</a>
+        <Button
+          content="contact"
+          color="white"
+          backgroundColor="#5D3578"
+          height="100%"
+          width="100%"
+        />{" "}
+        <Button
+          content="make an offer"
+          color="white"
+          backgroundColor="#5D3578"
+          height="100%"
+          width="100%"
+        />
       </div>
       <br />
       <div>
-        <h1>Safety tips</h1>{" "}
+        <h1>Safety tips</h1>
         <ul className="list-style">
           <li>Avoid sending any prepayments</li>
           <li>Meet with the seller at a safe public place</li>

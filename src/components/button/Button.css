@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Russo+One&family=Voltaire&display=swap");
+
+/* Additional styles can be added here */
 .button {
   width: 50%;
   height: 80%;
@@ -5,6 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-style: normal;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media screen and (max-width: 992px) {

@@ -12,7 +12,7 @@ function Header() {
     <div className="header-con bg-[#5D3578]">
       {" "}
       <div className="header ">
-        <img src={logo} className="md:w-[15%] w-[30%]" alt="logo" />{" "}
+        <img src={logo} className="md:w-[10%] w-[30%]" alt="logo" />{" "}
         <div className="nav-items">
           <div className="navbar" onClick={() => setShow(!show)}>
             {show ? (
